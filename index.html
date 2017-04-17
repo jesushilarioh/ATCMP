@@ -58,9 +58,9 @@
           <!-- /Swiper Images -->
 
           <!-- Swiper Form -->
-          <div class="form" action="index.html" method="post">
+          <form class="form" action="index.html" method="post">
             <h4>Professional Realtors Work For You!</h4>
-            <div class="">
+            <div class="" id="options-buy">
               <div id="buy" class="options">
                 Buy
               </div>
@@ -74,9 +74,12 @@
                 Commercial
               </div>
             </div>
-            <input type="text" name="" value="Search by City, Zip Code, or Address">
-            <button type="button" name="button">Search</button>
-          </div>
+
+            <div id="suburb-submit" class="input-group input-group-lg">
+              <input id="suburb-submit-input" type="text" class="form-control" placeholder="City, Zip, or Address" aria-describedby="basic-addon2">
+              <span class="input-group-addon" id="basic-addon2">Search</span>
+            </div>
+        </form>
           <!-- /Swiper Form -->
 
           <!-- Add Pagination -->
@@ -86,59 +89,126 @@
         </div>
         <!-- /Swiper -->
 
+        <!-- four-images-container -->
         <div class="container-fluid" id="four-images-container">
+            <!-- four-images-row -->
+            <div class="row" id="four-images-row">
 
-
-        <div class="row" id="four-images-row">
-          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12" id="cols-four-images">
-            <div class="four-images">
-              <img class="img-responsive" src="images/swimmingpool.jpg" alt="">
-              <div class="carousel-caption">
-                        <h4 style="padding-bottom:34px;">Image Caption</h4>
+                <!-- Col 1 -->
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12" id="cols-four-images">
+                    <div class="four-images">
+                        <img class="img-responsive" src="images/swimmingpool.jpg" alt="">
+                        <div class="carousel-caption">
+                            <h4 style="padding-bottom:34px;">Image Caption</h4>
+                        </div>
                     </div>
-            </div>
+                </div>
+                <!-- /Col 1 -->
 
-
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12" id="cols-four-images">
-            <div class="four-images">
-              <img class="img-responsive" src="images/cozyhome2.jpg" alt="">
-              <div class="carousel-caption">
-                        <h4 style="padding-bottom:34px;">Image Caption</h4>
+                <!-- Col 2 -->
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12" id="cols-four-images">
+                    <div class="four-images">
+                        <img class="img-responsive" src="images/cozyhome2.jpg" alt="">
+                        <div class="carousel-caption">
+                            <h4 style="padding-bottom:34px;">Image Caption</h4>
+                        </div>
                     </div>
-            </div>
+                </div>
+                <!-- /Col 2 -->
 
-
-          </div>
-
-          <div class="col-lg-3 hidden-md col-sm-6 col-xs-12" id="cols-four-images">
-            <div class="four-images">
-              <img class="img-responsive" src="images/luxhome.jpg" alt="">
-              <div class="carousel-caption">
-                        <h4 style="padding-bottom:34px;">Image Caption</h4>
+                <!-- Col 3 -->
+                <div class="col-lg-3 hidden-md col-sm-6 col-xs-12" id="cols-four-images">
+                    <div class="four-images">
+                        <img class="img-responsive" src="images/luxhome.jpg" alt="">
+                        <div class="carousel-caption">
+                            <h4 style="padding-bottom:34px;">Image Caption</h4>
+                        </div>
                     </div>
-            </div>
+                </div>
+                <!-- /Col 3 -->
 
-
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12" id="cols-four-images">
-            <div class="four-images">
-              <img class="img-responsive" src="images/studioap2.jpg" alt="">
-              <div class="carousel-caption">
-                        <h4 style="padding-bottom:34px;">Image Caption</h4>
+                <!-- /Col 4 -->
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12" id="cols-four-images">
+                    <div class="four-images">
+                        <img class="img-responsive" src="images/studioap2.jpg" alt="">
+                        <div class="carousel-caption">
+                            <h4 style="padding-bottom:34px;">Image Caption</h4>
+                        </div>
                     </div>
+                </div>
+                <!-- /Col 4 -->
+
             </div>
-
-
-          </div>
+            <!-- four-images-row -->
 
 
         </div>
+        <!-- /four-images-container -->
+
+        <!-- Recent-Properties-Container -->
+        <div class="container" id="recent-properties-container">
+            <h4 id="recent-properties-title">Recent Properties</h4>
+
+            <!-- Recent Properties Row 1 -->
+            <div class="row">
+                <!-- Col 1 -->
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    Hello!
+                </div>
+                <!-- /Col 1 -->
+
+                <!-- Col 2 -->
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    Hello!
+                </div>
+                <!-- /Col 2 -->
+
+                <!-- Col 3 -->
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    Hello!
+                </div>
+                <!-- /Col 3 -->
+
+                <!-- Col 1 -->
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    Hello!
+                </div>
+                <!-- /Col 1 -->
+
+                <!-- Col 2 -->
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    Hello!
+                </div>
+                <!-- /Col 2 -->
+
+                <!-- Col 3 -->
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    Hello!
+                </div>
+                <!-- /Col 3 -->
+            </div>
+            <!-- /Recent Properties Row 1 -->
+            <div class="">
+                Button
+            </div>
+
         </div>
+        <!-- /Recent-Properties-Container -->
+        <div class="" id="real-estate-tools-and-resources-container">
 
+        </div>
+        <div class="" id="real-estate-agents-container">
 
+        </div>
+        <div class="" id="testimonials-container">
+
+        </div>
+        <div class="" id="get-in-touch-container">
+
+        </div>
+        <div class="footer" id="footer-container">
+
+        </div>
 
 
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
