@@ -21,3 +21,10 @@ https://codepen.io/miketricking/pens/public/
 https://miketricking.github.io/bootstrap-image-hover/
 
 https://codepen.io/ncerminara/pen/eFzJI/
+
+## Parallax ##
+https://mdbootstrap.com/css/bootstrap-parallax/
+
+https://www.impulse-themes.com/playground/?sample=parallax-bootstrap
+
+https://mdbootstrap.com/live/_MDB/index/docs/parallax/index.html

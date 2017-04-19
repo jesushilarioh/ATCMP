@@ -6,7 +6,7 @@ $(document).ready(function () {
       paginationClickable: true,
       spaceBetween: 30,
         centeredSlides: true,
-        autoplay: 3000,
+        autoplay: 2500,
         autoplayDisableOnInteraction: false,
         effect: 'fade'
     })
