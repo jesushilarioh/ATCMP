@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:400,700|Montserrat:400,700');
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700|Montserrat:400,700');
 
 html, body {
     position: relative;
@@ -12,13 +12,12 @@ body {
     margin: 0;
     padding: 0;
 }
-.collapse ul li a{
+.collapse ul li a {
     padding-left: 5px;
 }
 .swiper-container {
     width: 100%;
-    height: 470px;
-
+    height: 500px;
 }
 .swiper-slide {
     text-align: center;
@@ -150,8 +149,8 @@ body {
 }
 #atc-img {
     position: absolute;
-    left: 0;
-    top: 50px;
+    left: 10px;
+    top: 62px;
     bottom: 0;
     right: 0;
     z-index: 2;
@@ -311,7 +310,6 @@ body {
 .navbar-brand a {
   color: white;
   text-decoration: none;
-  padding:
 }
 #four-images-container {
  padding: 0;
@@ -334,11 +332,6 @@ body {
 #recent-properties-container {
   margin-bottom: 110px;
 }
-#recent-properties-container hr {
-  width: 15%;
-  background-color: #ff7e00;
-  height: 2px;
-}
 #recent-properties-row {
   margin: 45px -15px 40px -15px;
 }
@@ -354,27 +347,32 @@ body {
   font-family: "Montserrat",sans-serif;
   margin:  80px 0 33px 0;
 }
+#recent-properties-container hr {
+  width: 15%;
+  background-color: #ff7e00;
+  height: 2px;
+}
 /* Extra small devices (phones, up to 480px) */
 @media screen and (max-width: 767px) {
-    #recent-properties-title {
+    #recent-properties-title, #tools-and-resources-title, #real-estate-agents-title {
         font-size: 32px;
     }
 }
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991px) {
-    #recent-properties-title {
+    #recent-properties-title, #tools-and-resources-title, #real-estate-agents-title {
         font-size: 34px;
     }
 }
 /* tablets/desktops and up ----------- */
 @media (min-width: 992px) and (max-width: 1199px) {
-    #recent-properties-title {
+    #recent-properties-title, #tools-and-resources-title, #real-estate-agents-title {
         font-size: 36px;
     }
 }
 /* large desktops and up ----------- */
 @media screen and (min-width: 1200px) {
-    #recent-properties-title {
+    #recent-properties-title, #tools-and-resources-title, #real-estate-agents-title {
         font-size: 38px;
     }
 }
@@ -386,8 +384,10 @@ body {
 #view-all-properties {
   background-color: #FFA200;
   border-color: #FFA200;
-  padding: 14px 20px;
+  padding: 20px 26px;
+  font-size: 16px;
   letter-spacing: 1px;
+  font-weight: bold;
   font-family: "Lato",Helvetica,Arial,sans-serif;
 }
 #view-properties {
@@ -404,10 +404,198 @@ body {
     padding: 10px 14px 0 14px;
     text-align: left;
 }
+.six-images h3 {
+    color: #FFA200;
+}
+.six-images h3, .six-images h4 {
+    font-family: "Montserrat",sans-serif;
+    font-weight: bold;
+}
+.six-images h4 {
+    font-size: 17px;
+    color: #434345;
+}
+.six-images ul {
+    padding-left: 0;
+    color: #9C9C9C;
+    font-family: "Lato",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.six-images p {
+    font-family: "Lato",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434345;
+}
 /* Extra small devices (phones, up to 480px) */
 @media screen and (max-width: 767px) {
     .six-images {
         text-align: center;
     }
 }
-  color: #4f5e95;
+
+.wrap {
+    width: 100%;
+    padding: 0;
+}
+.image {
+    background-image: url("images/city.jpg");
+    position: relative;
+    min-height: 80vh;
+    height: 100%;
+    background: url('images/city.jpg') no-repeat top top fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-image:
+        -webkit-image-set(
+            "images/city.jpg" 1x,
+            "images/city.jpg" 2x
+        );
+    background-image:
+        image-set(
+            "images/city.jpg" 1x,
+            "images/city.jpg" 2x
+        );
+
+}
+.image:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.5);
+}
+.text {
+    color: #fff;
+    position: relative;
+    margin-bottom: 110px;
+}
+#tools-and-resources-title {
+  font-weight: bold;
+  text-align: center;
+  color: #FFF;
+  font-family: "Montserrat",sans-serif;
+  padding-top: 80px;
+  padding-bottom: 20px;
+}
+.text hr {
+  width: 10%;
+  background-color: #ff7e00;
+  height: 2px;
+  border-top: none;
+}
+#three-icons-container {
+
+}
+.three-icons {
+    text-align: center;
+
+}
+#three-icons-row {
+
+}
+.three-icons h3 {
+    font-family: "Montserrat",sans-serif;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.three-icons p {
+    margin-top: 18px;
+    color: #c4c4c4;
+    font-family: "Lato",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.three-icons i {
+    background: -moz-linear-gradient(45deg, #ff7e00 0%, #f5bf2f 100%);
+    background: -webkit-linear-gradient(45deg, #ff7e00 0%, #f5bf2f 100%);
+    background: -o-linear-gradient(45deg, #ff7e00 0%, #f5bf2f 100%);
+    background: -ms-linear-gradient(45deg, #ff7e00 0%, #f5bf2f 100%);
+    background: linear-gradient(45deg, #ff7e00 0%, #f5bf2f 100%);
+    padding: 15px;
+    margin-top: 30px;
+    border-radius: 50%;
+}
+#real-estate-agents-title {
+  font-weight: bold;
+  text-align: center;
+  color: #434345;
+  font-family: "Montserrat",sans-serif;
+  padding-top: 80px;
+  padding-bottom: 20px;
+}
+.agents hr {
+  width: 10%;
+  background-color: #ff7e00;
+  height: 2px;
+  border-top: none;
+}
+.agent-phone {
+    font-family: "Lato",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+.agent-email-address {
+    font-weight: 400;
+}
+.agent-images h4 {
+    font-family: "Lato",Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    color: #434343;
+}
+.agent-images h3 {
+    color: #FFA200;
+    font-family: "Montserrat",sans-serif;
+    font-weight: bold;
+}
+.agent-images {
+  text-align: left;
+  padding: 20px 20px 50px 20px;
+
+}
+/* Extra small devices (phones, up to 480px) */
+@media screen and (max-width: 767px) {
+    .agent-images {
+        text-align: center;
+    }
+}
+#real-estate-agents-container {
+ padding: 0;
+}
+.agent-images img {
+
+  padding: 0 0;
+  margin: 0 auto;
+}
+.col-lg-3, .col-md-3, .col-md-4, .col-sm-6, .col-xs-12 {
+    padding: 0;
+}
+#agents-row {
+  margin: 30px 0 0 0;
+  padding: 0;
+
+}
+#view-all-agents {
+  background-color: #FFA200;
+  border-color: #FFA200;
+  padding: 20px 26px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-family: "Lato",Helvetica,Arial,sans-serif;
+}
+#view-agents {
+    margin-top: 20px;
+    text-align: center;
+}
+#view-all-agents:hover {
+    background-color: #ff7e00;
+    border-color: #ff7e00;
+    transition: .3s;
+    color: #FFF;
+}
